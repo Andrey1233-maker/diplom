@@ -1,0 +1,28 @@
+.btn {
+  border-radius: 5px;
+  border: 1px solid #0000008f;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: min(200px);
+}
+
+.btn:hover {
+  box-shadow: 5px 5px 5px 0 #0000008f;
+}
+
+.btn__accept {
+  background: #00cd33;
+}
+
+.btn__deny {
+  background: #b93333;
+}
+
+.btn__original {
+  background: #ffab4c;
+}

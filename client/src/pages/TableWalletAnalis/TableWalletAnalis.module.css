@@ -1,0 +1,68 @@
+
+.page {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 5px 0 #0000008f;
+    background: #fff;
+    gap: 10px;
+}
+
+.page_grafic {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: start;
+    gap: 1px;
+    width: 100%;
+    height: 400px;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+
+}
+
+.grafic_wrapper {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 #0000008f;
+    box-sizing: border-box;
+    background: linear-gradient( #6cc7ff, transparent 1px), linear-gradient( 90deg, #6cc7ff, transparent 1px);
+    background-size: 5px 5px;
+    background-position: center center;
+}
+
+.stick {
+    width: 10px;
+    min-height: 2px !important;
+    background: #901111;
+    flex: 1;
+}
+
+.card_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.page_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.transfers {
+    height: 400px;
+    overflow: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #a7a7a7;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    box-shadow: inset 5px 5px 5px 0 #0000008f;
+}

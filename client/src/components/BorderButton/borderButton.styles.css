@@ -1,0 +1,11 @@
+.border_button {
+  border: 2px solid #ffab4c;
+  color: #ffab4c;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.border_button:hover {
+  box-shadow: 3px 3px 5px 0 #0000008f;
+}

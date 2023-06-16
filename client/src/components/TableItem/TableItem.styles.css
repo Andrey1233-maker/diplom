@@ -1,0 +1,35 @@
+.block {
+  background: #bcd3ff;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #255db0;
+  color: #255db0;
+}
+
+.block__create {
+  background: #bbfacc;
+  border: 2px solid #00a32b;
+  color: #00a32b !important;
+}
+
+.block__title {
+  font-weight: bold;
+}
+
+.block__input {
+  background-color: #e9f1ff;
+  padding: 7px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+.block:hover {
+  box-shadow: 5px 5px 5px 0 #0000008f;
+}

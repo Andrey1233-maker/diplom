@@ -1,0 +1,29 @@
+.default_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.default_input__title {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.default_input__input {
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  margin-top: 0;
+  background: #f1f1f1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.default_input__input:hover {
+  box-shadow: 5px 5px 5px 0 #0000008f;
+}

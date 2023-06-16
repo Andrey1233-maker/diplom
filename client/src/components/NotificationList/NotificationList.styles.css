@@ -1,0 +1,90 @@
+.notification_btn {
+  border-radius: 5px;
+  border: 2px solid #00cd33;
+  background: #ffffff;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.notification_btn__icon {
+  width: 100%;
+}
+
+.notification_btn__new_count {
+  border-radius: 20px;
+  background: #b93333;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.notification_list__form {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 5px 5px 5px 0 #0000008f;
+
+  padding: 5px 20px;
+  align-items: center;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 1px solid #000000;
+  margin-bottom: 0;
+
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 20%;
+  height: 40%;
+
+  gap: 10px;
+}
+
+.notification_list__form__title {
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form__title__bold {
+  color: #ffab4c;
+  font-weight: bolder;
+}
+
+.notificaton_list__item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 #0000008f;
+}
+
+.item__text {
+  margin: 0;
+}
+
+.item__delete_icon {
+  cursor: pointer;
+}
+
+.notification_list__form__close_icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}

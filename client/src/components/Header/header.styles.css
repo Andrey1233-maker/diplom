@@ -1,0 +1,67 @@
+.header {
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  box-shadow: 5px 5px 5px 0 #0000008f;
+
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 1px solid #000000;
+  margin-bottom: 0;
+}
+
+.header__btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.header__logo {
+  height: 40px;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.header__user {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  gap: 10px;
+}
+
+.user__name {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.user__email {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header__avatar {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.header__names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

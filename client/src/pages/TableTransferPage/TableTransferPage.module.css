@@ -1,0 +1,82 @@
+.page {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 5px 0 #0000008f;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: #fff;
+}
+
+.page__title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dual_section__wall {
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #a0a0a0;
+    box-shadow: inset 5px 5px 5px 0 #0000008f;
+    width: 10px;
+    height: 100%;
+}
+
+.transaction_steps__my_cards {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 5px 0 #0000008f;
+    margin: 10px;
+    background: #a0a0a0;
+}
+
+.page__transaction_steps {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 #0000008f;
+    background: #fff;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.card_item:hover {
+    box-shadow: none;
+}
+
+.transaction_steps__transfer_sum {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page__title1 {
+    margin: 0;
+    text-align: start;
+    font-weight: bold;
+}
+
+.card_item_focus {
+    box-shadow: none !important;
+    border-width: 3px;
+}

@@ -1,0 +1,41 @@
+.table_page__form {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 5px 5px 5px 0 #0000008f;
+
+  padding: 10px 20px;
+  align-items: center;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 1px solid #000000;
+  margin-bottom: 0;
+
+  gap: 10px;
+}
+
+.table_page_content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+}
+
+.table_page__form__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.table_page__form__part {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  width: 100%;
+  box-shadow: 5px 5px 5px 0 #0000008f;
+  margin: 0;
+}
+
+.table_page__form__part:hover {
+  font-weight: bold;
+  box-shadow: none;
+}

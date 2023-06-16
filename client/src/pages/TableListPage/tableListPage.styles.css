@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 #0000008f;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}

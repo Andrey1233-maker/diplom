@@ -1,0 +1,8 @@
+.footer {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 #0000008f;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #ffffff;
+}

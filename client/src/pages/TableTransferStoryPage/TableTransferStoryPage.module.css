@@ -1,0 +1,33 @@
+.table_page__form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 5px 0 #0000008f;
+    background: #fff;
+    gap: 10px;
+}
+
+.table_page__title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.table_page__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #a0a0a0;
+    box-shadow: inset 5px 5px 5px 0 #0000008f;
+}
+
+.filter_bar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+}

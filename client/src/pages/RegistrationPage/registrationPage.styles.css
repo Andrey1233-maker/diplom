@@ -1,0 +1,43 @@
+.registration_page {
+  background: #a0a0a0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration_fragment {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #656565;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px 0 #0000008f;
+  box-sizing: border-box;
+}
+
+.registration_fragment__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.registration_fragment__inps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.registration_fragment__btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}

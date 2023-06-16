@@ -1,0 +1,7 @@
+.fragment {
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #0000008f;
+}
